@@ -1,0 +1,135 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87) !important; 
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body{
+  padding-top: 50px;
+  margin: 0;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  display: flex;
+  place-items: center;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  min-width: 320px;
+  color: white;
+  min-height: 100vh;
+  background-image: url('brandon-griggs-45uxrDruXR4-unsplash.jpg') !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent; /* Ensure it does not fallback to white */
+}
+
+
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #68697d;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+.App{
+  padding: 50px 90px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  backdrop-filter: blur(5px); /* Blurs the background behind the element */
+  -webkit-backdrop-filter: blur(20px); /* Safari support */
+  border: 1px solid transparent; /* Light border for glassy edge */
+}
+
+input{
+  padding: 0.7em 1.2em;
+}
+
+li{
+  list-style: none;
+  display: block;
+  padding: 0.6em 1.2em;
+  border-color: #f9f9f9;
+  font-size: 22px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-bottom: 0.5px solid #686767;
+}
+
+
+
+input[type="checkbox"] {
+  width: 15px;  /* Adjust the size as needed */
+  height: 15px;
+  transform: scale(1.5); /* Scale the checkbox */
+  margin-right: 30px; /* Add spacing between checkbox and text */
+}
+
+#del{
+  padding: 5px 10px;
+  font-size: 15px;
+  margin-left: 10px;
+  background-color: #73737c;
+}
+
+#del:hover{
+  background-color: #1a1a1a;
+}
+
+ul{
+  text-align: left;
+  padding-left: 0;
+
+}
+
